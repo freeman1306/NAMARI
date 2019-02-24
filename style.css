@@ -1,0 +1,28 @@
+.text_area {
+    position: relative;
+    width: 5em;
+    height: 3em;
+}
+
+.item {
+    display: flex;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    margin-top: 2em;
+}
+
+.active {
+    background-color: red;
+}
+
+.text {
+    opacity: 0;
+}
+
+.text_active {
+    opacity: 1;
+}
